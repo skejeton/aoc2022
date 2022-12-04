@@ -1,4 +1,4 @@
-let input = ``// INSERT INPUT 
+let input = document.body.innerText.trim()
 
 function splitInHalf(s) {
   return [s.slice(0, s.length/2), s.slice(s.length/2)]
